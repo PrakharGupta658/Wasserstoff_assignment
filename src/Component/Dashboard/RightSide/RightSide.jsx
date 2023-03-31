@@ -13,6 +13,13 @@ const DashRight = () => {
       {/* Circle */}
       <div className="dashBoard__right-parent__circle">
         <div className="dashBoard__right-child__circle">
+        <div className="time-period">
+                        <span>1W</span>
+                        <span>1M</span>
+                        <span style={{backgroundColor:"#3247E5" , borderRadius:"15px" , height:"30px" , width:"60px" , textAlign:"center" , color:"white" , paddingTop:"8px"}}>3M</span>
+                        <span>1Y</span>
+                        <span>All</span>
+                    </div>
         <DemoScatter/>
         </div>
       </div>
